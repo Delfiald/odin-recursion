@@ -20,7 +20,7 @@ function fibs(n) {
 
 console.log(fibs(8))
 
-// Recursive
+// Recursions
 function fibsRec(n, fibsList = [0, 1]) {
   if(fibsList.length >= n) {
     return fibsList.slice(0, n)
